@@ -54,3 +54,7 @@ Just follows the guide from start to post install and everything will work as ex
 
  - If you want to start from beginning, just read the guide from Dortania on link above. It's easy and I'm using the pre-built SSDT files.
  - I had experienced one of Troubleshooting note from Dortania, that was stuck on `ramrod` after installation process completed. If you experienced this too, you should wait for a while until the system is boot up. After that everything work on it's place.
+ 
+ ## Using My File
+ 
+ - If you want use my file, don't forget to change the SMBIOS
