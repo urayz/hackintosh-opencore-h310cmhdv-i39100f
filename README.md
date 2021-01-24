@@ -44,6 +44,13 @@
  ## Short Brief
  At first I used Clover to install Big Sur, but after finished install process, the system got kernel panic loop and couldn't finish the installation. I managed to install it with Clover on Catalina and then update manually to Big Sur, but there were many things didn't work properly (couldn't log in to iCloud, Safari broken, Ethernet not work, Audio not work, dll).
  
- Clover quite a mess to start than OpenCore. With OpenCore the config file much cleaner, it's just use the necessary tweaks. The documentation was very helpful and detail. I managed to install Big Sur properly with guide from Dortania (https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/)
+ Clover quite a mess to start than OpenCore. With OpenCore the config file much cleaner, it's just use the necessary tweaks. The documentation was very helpful and detail. I managed to install Big Sur properly with guide from Dortania
+
+Link Guide: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/
 
 Just follows the guide from start to post install and everything will work as expected.
+
+## Install Journey
+
+ - If you want to start from beginning, just read the guide from Dortania on link above. It's easy and I'm using the pre-built SSDT files.
+ - I had experienced one of Troubleshooting note from Dortania, that was stuck on `ramrod` after installation process completed. If you experienced this too, you should wait for a while until the system is boot up. After that everything work on it's place.
